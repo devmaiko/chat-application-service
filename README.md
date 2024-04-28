@@ -26,21 +26,15 @@ git clone https://github.com/devmaiko/chat-application-service.git
 
 ```bash
 cd chat-application-service
-npm install
-```
-
-3. Set up environment variables:
-
-```bash
-cp .env.example .env
+yarn
 ```
 
 Make sure to fill in the necessary environment variables in the `.env` file.
 
-4. Start the server:
+3. Start the server:
 
 ```bash
-npm run start:dev
+yarn start:dev
 ```
 
 The service should now be running locally on `http://localhost:3000`.
@@ -52,7 +46,7 @@ To use the chat application service, follow these steps:
 1. Connect to the chat service using a compatible client.
 2. Start sending and receiving messages in real-time.
 
-## API Endpoints
+## Endpoints
 
 ### Messages
 
